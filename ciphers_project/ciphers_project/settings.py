@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=35(p^@jyt8z099^71ks0no-odbqop&k699i^wq-ae6vg3_i7j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://ciphers-service-arsivak.onrender.com']
 
@@ -130,6 +130,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://github.com/KirthivasanPN-hash/arithmetic--service.github.io",
+    "https://github.iu.edu/",
     "http://localhost:3000"
 ]
